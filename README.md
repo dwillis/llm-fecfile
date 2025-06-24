@@ -4,7 +4,7 @@
   <p><strong>A plugin for the Python llm library that assists in analyzing federal campaign finance filings.</strong></p>
 
 [![PyPI](https://img.shields.io/pypi/v/llm-fecfile.svg)](https://pypi.org/project/llm-fecfile/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/user/llm-fecfile/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/dwillis/llm-fecfile/blob/main/LICENSE)
 
 </div>
 
