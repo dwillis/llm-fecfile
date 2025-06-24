@@ -1,0 +1,26 @@
+<svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="60" r="25" fill="#1e3a5f"/>
+  
+  <!-- Document icon -->
+  <g transform="translate(100, 60)" fill="#ffffff">
+    <!-- Main document -->
+    <rect x="-8" y="-12" width="12" height="16" rx="1" fill="#ffffff"/>
+    <!-- Folded corner -->
+    <path d="M4 -12 L4 -8 L8 -8 Z" fill="#e5e7eb"/>
+    <!-- Document lines representing data -->
+    <line x1="-6" y1="-8" x2="2" y2="-8" stroke="#1e3a5f" stroke-width="0.8"/>
+    <line x1="-6" y1="-5" x2="2" y2="-5" stroke="#1e3a5f" stroke-width="0.8"/>
+    <line x1="-6" y1="-2" x2="2" y2="-2" stroke="#1e3a5f" stroke-width="0.8"/>
+    
+    <!-- Dollar sign overlay -->
+    <circle cx="0" cy="0" r="8" fill="#1e3a5f" opacity="0.9"/>
+    <path d="M0 -6 L0 -4 M0 4 L0 6 M2 -4 Q-4 -4 -4 -2 Q-4 0 2 0 Q4 0 4 2 Q4 4 -2 4 Q-4 4 -4 2" 
+          stroke="#fbbf24" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="100" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e3a5f">
+    LLM-FECFile
+  </text>
+</svg>
