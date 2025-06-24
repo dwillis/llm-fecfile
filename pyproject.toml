@@ -3,7 +3,7 @@ name = "llm-fecfile"
 version = "0.1.0"
 description = "LLM plugin for analyzing FEC campaign finance filings"
 readme = "README.md"
-authors = [{name = "Assistant"}]
+authors = [{name = "Derek Willis"}]
 license = {text = "MIT"}
 classifiers = [
     "Development Status :: 3 - Alpha",
