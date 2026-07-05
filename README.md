@@ -22,6 +22,15 @@ Install this plugin in the same environment as LLM:
 llm install llm-fecfile
 ```
 
+### Which model is used?
+
+This plugin doesn't register any models of its own - it only adds a fragment loader, a toolbox, and CLI commands. Fragments and tools run against whatever model `llm` is already configured to use (`llm models default`), or whichever model you pass with `-m`:
+
+```bash
+llm models default          # see your current default
+llm -f fec:1896830 -m gpt-4o "..."   # override the model for one run
+```
+
 ## Fragments
 
 The plugin registers a fragment loader with the `fec:` prefix.
